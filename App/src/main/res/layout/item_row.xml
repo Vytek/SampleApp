@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        tools:text="Sample"
+        android:id="@+id/tv_row_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
+    <TextView
+        android:id="@+id/tv_row_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="date"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/tv_row_title"
+        style="@style/TextAppearance.AppCompat.Base.SearchResult.Subtitle"/>
+</RelativeLayout>

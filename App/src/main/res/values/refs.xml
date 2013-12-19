@@ -1,0 +1,4 @@
+<resources>
+    <item name="fragment_notes" type="layout">@layout/fragment_note_list</item>
+    <item name="activity_notes" type="layout">@layout/note_activity_single_pane</item>
+</resources>

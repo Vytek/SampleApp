@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="authority" translatable="false">me.aktor.sample.store.neo.provider</string>
+    <string name="account_type" translatable="false">aktor.notes.neo.me</string>
+</resources>
